@@ -19,49 +19,72 @@
 			<h3>Sud Franche-Comté</h3>
 			<h4>Formulaire d'inscription</h4>
 
-			<label for="civilite">Civilité</label>
-			<select name="civilite" id="civilite">
-				<option value="Monsieur">M</option>
-				<option value="Madame">Mme</option>
-				<option value="Mademoiselle">Mlle</option>
-			</select>
-
-			<label for="name">Nom</label>
-			<input type="text" id="name" name="name" placeholder="Martin">
-
-			<label for="firstname">Prénom</label>
-			<input type="text" id="firstname" name="firstname" placeholder="Christophe">
-
-			<label for="birthdate">Date de naissance</label>
-			<input type="date" id="birthdate" name="birthdate">
-
-			<label for="diploma" id="diploma-title">Diplôme</label>
-			<div class="inline-field">
-				<label for="checkbox">BAC</label>
-				<input type="checkbox" id="checkbox" name="Bac">
-
-				<label for="checkbox">BTS</label>
-				<input type="checkbox" id="checkbox" name="BTS">
-
-				<label for="checkbox">Licence</label>
-				<input type="checkbox" id="checkbox" name="Licence">
-			</div>
-
-			<label for="vehicule">Possesion d'un véhicule</label>
-			<div class="inline-field">
-				<label for="radio">Oui</label>
-				<input type="radio" id="radio" name="vehicule" value="Oui">
-
-				<label for="radio">Non</label>
-				<input type="radio" id="radio" name="vehicule" value="Non" checked>
-			</div>
-
-			<input type="submit" id="submit-button" value="Envoyer">
-
-			<div class="form-footer">
-				<p>Copyright &copy; 2023 by Enzo Bonolis</p>
-				<p>Fait avec <span class="heart">❤</span> à Dole</p>
-			</div>
+			<table name="formulaire">
+				<tr>
+					<label for="civilite">Civilité</label>
+				</tr>
+				<tr>
+					<select name="civilite" id="civilite">
+						<option value="Monsieur">M</option>
+						<option value="Madame">Mme</option>
+						<option value="Mademoiselle">Mlle</option>
+					</select>
+				</tr>
+				<tr>
+					<label for="name">Nom</label>
+				</tr>
+				<tr>
+					<input type="text" id="name" name="name" placeholder="Martin">
+				</tr>
+				<tr>
+					<label for="firstname">Prénom</label>
+				</tr>
+				<tr>
+					<input type="text" id="firstname" name="firstname" placeholder="Christophe">
+				</tr>
+				<tr>
+					<label for="birthdate">Date de naissance</label>
+				</tr>
+				<tr>
+					<input type="date" id="birthdate" name="birthdate">
+				</tr>
+				<tr>
+					<label for="diploma" id="diploma-title">Diplôme</label>
+				</tr>
+				<tr>
+					<div class="inline-field">
+						<label for="checkbox">BAC</label>
+						<input type="checkbox" id="checkbox" name="Bac">
+		
+						<label for="checkbox">BTS</label>
+						<input type="checkbox" id="checkbox" name="BTS">
+		
+						<label for="checkbox">Licence</label>
+						<input type="checkbox" id="checkbox" name="Licence">
+					</div>
+				</tr>
+				<tr>
+					<label for="vehicule">Possesion d'un véhicule</label>
+				</tr>
+				<tr>
+					<div class="inline-field">
+						<label for="radio">Oui</label>
+						<input type="radio" id="radio" name="vehicule" value="Oui">
+		
+						<label for="radio">Non</label>
+						<input type="radio" id="radio" name="vehicule" value="Non" checked>
+					</div>
+				</tr>
+				<tr>
+					<input type="submit" id="submit-button" value="Envoyer">
+				</tr>
+				<tr>
+					<div class="form-footer">
+						<p>Copyright &copy; 2023 by Enzo Bonolis</p>
+						<p>Fait avec <span class="heart">❤</span> à Dole</p>
+					</div>
+				</tr>
+			</table>
 		</form>
 	</body>
 </html>
