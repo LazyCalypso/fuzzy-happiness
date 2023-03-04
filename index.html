@@ -34,19 +34,19 @@
 					<label for="name">Nom</label>
 				</tr>
 				<tr>
-					<input type="text" id="name" name="name" placeholder="Martin">
+					<input type="text" id="name" name="name" placeholder="Martin" maxlength=10 required>
 				</tr>
 				<tr>
 					<label for="firstname">Prénom</label>
 				</tr>
 				<tr>
-					<input type="text" id="firstname" name="firstname" placeholder="Christophe">
+					<input type="text" id="firstname" name="firstname" placeholder="Christophe" maxlength=20 pattern="^(([A-Za-z]+)[-. ]?)+" required>
 				</tr>
 				<tr>
 					<label for="birthdate">Date de naissance</label>
 				</tr>
 				<tr>
-					<input type="date" id="birthdate" name="birthdate">
+					<input type="date" id="birthdate" name="birthdate" required>
 				</tr>
 				<tr>
 					<label for="diploma" id="diploma-title">Diplôme</label>
